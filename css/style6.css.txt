@@ -1,0 +1,54 @@
+body {
+background-color:peachpuff;
+font-family: 'Mate SC', serif;
+}
+
+h1 {
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper {
+width: min(100% - 2rem, 1200px);
+margin-inline: auto;
+}
+
+.grid-container {
+display: grid;
+grid-template-areas:
+"header header header header header"
+"aside-one main main main aside-two"
+"aside-one main main main aside-two"
+"footer footer footer footer footer"
+;
+min-height: 80vh;
+margin-top: 4rem;
+gap: 0.5rem;
+}
+
+.grid-item {
+font-size: 1.5rem;
+background-color:white;
+padding: 1rem;
+}
+
+.header {
+grid-area: header;
+text-align: center;
+}
+
+.main {
+grid-area: main;
+}
+
+.aside-one {
+grid-area: aside-one;
+}
+
+.aside-two {
+grid-area: aside-two;
+}
+
+.footer {
+grid-area: footer;
+}

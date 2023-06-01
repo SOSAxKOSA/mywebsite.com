@@ -1,0 +1,8 @@
+body {
+background-color:peachpuff;
+font-family: 'Mate SC', serif;
+text-align: center;
+}
+img{
+text-align: center;
+}
